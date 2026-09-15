@@ -1,0 +1,34 @@
+{
+  "dataset": "synthetic-retail-interaction-demo",
+  "image_width": 1280,
+  "image_height": 720,
+  "classes": {"0":"product","1":"hand","2":"basket","3":"shelf"},
+  "frames": [
+    {"frame_id":101,"file_name":"frame_0101.jpg","annotations":[
+      {"id":1,"track_id":10,"class_id":0,"bbox":[530,250,118,170],"segmentation":[[530,250,648,252,646,420,532,418]],"confidence":0.99,"occluded":false,"truncated":false,"state":"on_shelf","needs_review":false},
+      {"id":2,"track_id":20,"class_id":1,"bbox":[760,305,145,110],"segmentation":[[760,350,795,310,860,305,905,340,880,400,815,415]],"confidence":0.97,"occluded":false,"truncated":false,"state":"reaching","needs_review":false}
+    ]},
+    {"frame_id":102,"file_name":"frame_0102.jpg","annotations":[
+      {"id":3,"track_id":10,"class_id":0,"bbox":[548,258,118,170],"segmentation":[[548,258,666,260,664,428,550,426]],"confidence":0.98,"occluded":true,"truncated":false,"state":"on_shelf","needs_review":false},
+      {"id":4,"track_id":20,"class_id":1,"bbox":[690,300,155,120],"segmentation":[[690,345,725,305,790,300,845,340,820,410,750,420]],"confidence":0.96,"occluded":false,"truncated":false,"state":"reaching","needs_review":false}
+    ]},
+    {"frame_id":103,"file_name":"frame_0103.jpg","annotations":[
+      {"id":5,"track_id":10,"class_id":0,"bbox":[585,275,120,172],"segmentation":[[585,275,705,278,703,447,588,445]],"confidence":0.94,"occluded":true,"truncated":false,"state":"held","needs_review":false},
+      {"id":6,"track_id":20,"class_id":1,"bbox":[610,300,160,125],"segmentation":[[610,350,640,305,705,300,770,345,742,415,675,425]],"confidence":0.95,"occluded":true,"truncated":false,"state":"holding","needs_review":false}
+    ]},
+    {"frame_id":104,"file_name":"frame_0104.jpg","annotations":[
+      {"id":7,"track_id":10,"class_id":0,"bbox":[650,305,121,172],"segmentation":[[650,305,771,307,769,477,652,475]],"confidence":0.91,"occluded":true,"truncated":false,"state":"held","needs_review":true},
+      {"id":8,"track_id":20,"class_id":1,"bbox":[635,315,165,130],"segmentation":[[635,365,665,320,730,315,800,360,770,435,700,445]],"confidence":0.92,"occluded":true,"truncated":false,"state":"holding","needs_review":false}
+    ]},
+    {"frame_id":105,"file_name":"frame_0105.jpg","annotations":[
+      {"id":9,"track_id":10,"class_id":0,"bbox":[735,360,122,173],"segmentation":[[735,360,857,362,855,533,738,530]],"confidence":0.96,"occluded":false,"truncated":false,"state":"held","needs_review":false},
+      {"id":10,"track_id":20,"class_id":1,"bbox":[700,340,170,135],"segmentation":[[700,390,735,345,800,340,870,385,840,465,765,475]],"confidence":0.96,"occluded":false,"truncated":false,"state":"holding","needs_review":false},
+      {"id":11,"track_id":30,"class_id":2,"bbox":[850,470,300,205],"segmentation":[[850,490,1130,470,1150,650,880,675]],"confidence":0.99,"occluded":false,"truncated":false,"state":"other","needs_review":false}
+    ]},
+    {"frame_id":106,"file_name":"frame_0106.jpg","annotations":[
+      {"id":12,"track_id":10,"class_id":0,"bbox":[835,445,120,170],"segmentation":[[835,445,955,447,953,615,838,612]],"confidence":0.94,"occluded":true,"truncated":false,"state":"in_basket","needs_review":false},
+      {"id":13,"track_id":20,"class_id":1,"bbox":[770,390,170,135],"segmentation":[[770,440,805,395,870,390,940,435,910,515,835,525]],"confidence":0.95,"occluded":false,"truncated":false,"state":"releasing","needs_review":false},
+      {"id":14,"track_id":30,"class_id":2,"bbox":[850,470,300,205],"segmentation":[[850,490,1130,470,1150,650,880,675]],"confidence":0.99,"occluded":false,"truncated":false,"state":"other","needs_review":false}
+    ]}
+  ]
+}
