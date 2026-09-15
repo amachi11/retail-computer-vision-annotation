@@ -1,0 +1,2 @@
+frame_id,annotation_id,track_id,class,reason,priority
+104,7,10,product,"Significant occlusion during hand interaction; verify visible boundary and track continuity",HIGH
