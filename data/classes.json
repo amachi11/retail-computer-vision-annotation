@@ -1,0 +1,10 @@
+{
+  "classes": [
+    {"id": 0, "name": "product"},
+    {"id": 1, "name": "hand"},
+    {"id": 2, "name": "basket"},
+    {"id": 3, "name": "shelf"}
+  ],
+  "product_states": ["on_shelf", "held", "in_basket", "unknown"],
+  "hand_actions": ["reaching", "holding", "releasing", "other"]
+}
